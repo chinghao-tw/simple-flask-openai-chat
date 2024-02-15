@@ -30,11 +30,15 @@ This project is a simple Flask web application that implements a chat feature us
 1. **Visit the Home Page:**  
    Open your browser and visit http://localhost:8080/. You will see an input box.
 
+   ![Input Box](img/input.png)
+
 2. **Interact with the Model:**  
    Type text into the input box and press Submit button. You will see the model's response displayed on the page.
 
 3. **View Output:**  
    The text you entered along with the model's response will be displayed on the page.
+
+   ![Output](img/output.png)
 
 ## Notes
 
