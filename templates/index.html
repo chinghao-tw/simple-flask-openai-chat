@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI Text Completion Sample</title>
+</head>
+<body>
+    <h1>User Text Input:</h1>
+    <form method="post">
+        <input type="text" name="user_input">
+        <input type="submit" value="Submit">
+    </form>
+    {% if user_input %}
+    <h2>User Text Input: </h2>
+    <p>{{ user_input }}</p>
+    {% endif %}
+    {% if model_output %}
+    <h2>Model Text Output:</h2>
+    <p>{{ model_output }}</p>
+    {% endif %}
+</body>
+</html>
